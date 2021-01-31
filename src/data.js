@@ -29,7 +29,7 @@ const Trips = [
   new Trip(
     "Mount Kilimanjaro",
     "Africa",
-    3,
+    "medium",
     72,
     5,
     "mount-kilimanjaro",
@@ -38,7 +38,7 @@ const Trips = [
   new Trip(
     "Machu Picchu and the Sacred Valley",
     "Peru",
-    2,
+    "easy",
     60,
     4,
     "machu-Picchu-and-the-sacred-valley",
@@ -47,7 +47,7 @@ const Trips = [
   new Trip(
     "The Scottish Highlands",
     "Scotland’s",
-    4,
+    "hard",
     90,
     2,
     "the-scottish-highlands",
@@ -56,7 +56,7 @@ const Trips = [
   new Trip(
     "Mont Blanc",
     "Europe",
-    3,
+    "medium",
     120,
     4,
     "mont-blanc",
@@ -65,7 +65,7 @@ const Trips = [
   new Trip(
     "Jabl El-Dokhaan",
     "Bahrain",
-    2,
+    "easy",
     50,
     3,
     "jabl-el-dokhaan",
@@ -74,7 +74,7 @@ const Trips = [
   new Trip(
     "Petra",
     "Jordan",
-    3,
+    "medium",
     35,
     2,
     "petra",
@@ -83,7 +83,7 @@ const Trips = [
   new Trip(
     "Dipkarpaz",
     "Northern Cyprus",
-    2,
+    "easy",
     35,
     3,
     "dipkarpaz",
@@ -92,7 +92,7 @@ const Trips = [
   new Trip(
     "The Basho Wayfarer",
     "Japan",
-    2,
+    "easy",
     45,
     4,
     "the-basho-wayfarer",

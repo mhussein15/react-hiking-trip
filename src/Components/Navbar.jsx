@@ -29,12 +29,12 @@ export default function Navbar({ setQuery }) {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link to="/" class="nav-link active" aria-current="page">
+                <NavLink to="/" class="nav-link active" aria-current="page">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li class="nav-item">
-                <Link to="/hiking-trips" class="nav-link">
+                <Link to="/hiking-trips/"  class="nav-link">
                   Trips
                 </Link>
               </li>

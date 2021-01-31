@@ -10,6 +10,7 @@
     "mdb-ui-kit": "^3.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-dropdown": "^1.9.2",
     "react-range": "^1.8.6",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
