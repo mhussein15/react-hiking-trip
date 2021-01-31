@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 export default function TripCard(props) {
   const { trip } = props;
   return (
@@ -19,6 +21,7 @@ export default function TripCard(props) {
             <p className="card-text">
               Elevation Changes:-{trip.elevationChange}
             </p>
+            <Link to={`/hiking-trips/${trip.id}`} ><h1>Details</h1></Link>
           </div>
         </div>
       </div>
