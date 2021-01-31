@@ -8,7 +8,7 @@ export default function Routes(props) {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/hiking-trips" >
-          <TripsPage trips={props.trips} />
+          <TripsPage trips={props.trips} setRange={props.setRange} range={props.range}/>
         </Route>
       </Switch>
     </div>
