@@ -11,7 +11,7 @@ export default function Routes(props) {
         <Route exact path="/hiking-trips" >
           <TripsPage trips={props.trips} setRange={props.setRange} range={props.range}/>
         </Route>
-        <Route exact path="/hiking-trips/:tripId">
+        <Route exact path="/hiking-trips/:tripSlug">
           <TripsDetail/>
         </Route>
       </Switch>

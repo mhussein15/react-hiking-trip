@@ -34,7 +34,7 @@ export default function TripsPage({ trips, setRange,range }) {
           />
         )}
       />
-      <h4 className="text-center mt-5">{range}</h4>
+      <h4 className="text-center mt-5">{range} km</h4>
       <div className="m-5">{trips}</div>
     </div>
   );
